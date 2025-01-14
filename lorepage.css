@@ -1,0 +1,41 @@
+/* This is the CSS page for the Resident Evil Lore webpage and its form.*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+.lorepage {
+    background-image: url('Misc/lorepagebackimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 180vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+#game-images {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.headers {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 6px 6px rgb(107, 61, 61);
+    font-size: larger;
+    color: rgb(175, 229, 134);
+}

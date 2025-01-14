@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Evil Fan Survey</title>
+    <link rel="stylesheet" href="forms.css">
+    <script src="reevil.js" defer></script>
+</head>
+<body class="formspage">
+    <div class="content-container">
+        <header>
+            <img src="Misc/umbrellalogo.png" alt="Umbrella Logo" class="header-img">
+            <h1>Resident Evil - Fan Survey</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">>Back to Homepage<</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <section>
+            <form id="surveyForm" onsubmit="return validateForm()" method="POST">
+
+                <fieldset>
+                    <legend>Do you like the Resident Evil page?</legend>
+                    <label>
+                        <input type="radio" name="likePage" value="yes" required> Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="likePage" value="no"> No
+                    </label>
+                    <span id="likePageError" class="error-message"></span><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Who is your favorite Resident Evil character?</legend>
+                    <input type="text" id="favoriteCharacter" name="favoriteCharacter" placeholder="Enter your favorite character" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select your favorite weapons (multiple choices allowed):</legend>
+                    <label>
+                        <input type="checkbox" name="weapons" value="Handgun"> Handgun
+                    </label>
+                    <label>
+                        <input type="checkbox" name="weapons" value="Shotgun"> Shotgun
+                    </label>
+                    <label>
+                        <input type="checkbox" name="weapons" value="Grenade"> Grenade
+                    </label>
+                    <label>
+                        <input type="checkbox" name="weapons" value="Knife"> Knife
+                    </label>
+                    <span id="weaponsError" class="error-message"></span><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose your favorite game from the list:</legend>
+                    <select name="favoriteGame" required>
+                        <option value="" disabled selected>Select a game</option>
+                        <option value="RE1">Resident Evil 1</option>
+                        <option value="RE2">Resident Evil 2</option>
+                        <option value="RE3">Resident Evil 3</option>
+                        <option value="RE4">Resident Evil 4</option>
+                        <option value="RE5">Resident Evil 5</option>
+                        <option value="RE6">Resident Evil 6</option>
+                        <option value="RE7">Resident Evil 7</option>
+                        <option value="RE8">Resident Evil 8</option>
+                    </select>
+                    <span id="favoriteGameError" class="error-message"></span><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Rate your overall experience with Resident Evil (1 to 10):</legend>
+                    <input type="number" name="experienceRating" min="1" max="10" step="1" required>
+                    <span id="experienceRatingError" class="error-message"></span><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>When did you first play Resident Evil?</legend>
+                    <label for="firstPlayed">Date:</label>
+                    <input type="date" name="firstPlayed" required>
+                    <span id="firstPlayedError" class="error-message"></span><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Provide additional comments:</legend>
+                    <textarea name="comments" rows="4" placeholder="Tell us more..."></textarea>
+                </fieldset>
+
+                <div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <button type="reset" class="reset-btn">Reset</button>
+                </div>
+
+                <fieldset class="action-fieldset">   <!---This is the empty fieldset!-->
+                    <legend>Thank You!</legend>
+                    <p></p>
+                </fieldset>
+
+            </form>
+        </section>
+        </main>
+    </div>
+</body>
+</html>
