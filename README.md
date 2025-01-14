@@ -5,3 +5,5 @@ Lots of images supporting each character (Leon, Ada, Claire, Jill).
 Lots of general images for backgrounds and content containers within the website.
 It has an interactive nature of being able to click and select characters.
 Links to external gamepages including Capcom's official website.
+
+START THE WEBPAGE BY RUNNING "homepage.html":)
