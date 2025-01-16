@@ -7,3 +7,4 @@ It has an interactive nature of being able to click and select characters.
 Links to external gamepages including Capcom's official website.
 
 START THE WEBPAGE BY RUNNING "homepage.html":)
+ALL SEPARATE IMAGES AND FILES TO DIFFERENT WEBPAGES are put into respective folders.
