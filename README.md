@@ -8,3 +8,5 @@ Links to external gamepages including Capcom's official website.
 
 START THE WEBPAGE BY RUNNING "homepage.html":)
 ALL SEPARATE IMAGES AND FILES TO DIFFERENT WEBPAGES are put into respective folders.
+
+Each character has their respective folder. Otherwise, a miscellaneous folder contains any extra images/general images that surround the integrated webpages.
